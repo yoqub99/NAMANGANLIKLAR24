@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.header {
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 1200px;
+  height: 133px;
+  background-color: #F6F6F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.span {
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}
+
+.box1 {
+  position: relative;
+  width: 232px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 130px;
+}
+
+.box1::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  left: -70px;
+  width: 43px;
+  height: 45px;
+  background-image: url(../img/icon-covid.png);
+  background-repeat: no-repeat;
+}
+
+.box2 {
+  position: relative;
+  width: 161px;
+  height: 52px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #DB0000;
+  margin-left: 71px;
+  margin-top: 41px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-left: 84px;
+  border-left: 2px solid #EB5569;
+}
+
+.box2::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  left: 30px;
+  width: 43px;
+  height: 45px;
+  background-image: url(../img/icon-infected.png);
+  background-repeat: no-repeat;
+}
+
+.box3 {
+  position: relative;
+  width: 161px;
+  height: 52px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #05B135;
+  margin-left: 42px;
+  margin-top: 41px;
+  margin-bottom: 40px;
+  padding-top: 2px;
+  padding-left: 84px;
+  border-left: 2px solid #F4CCD1;
+}
+
+.box3::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  left: 30px;
+  width: 43px;
+  height: 45px;
+  background-image: url(../img/icon-recovered.png);
+  background-repeat: no-repeat;
+}
+
+.box4 {
+  position: relative;
+  width: 161px;
+  height: 52px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-left: 9px;
+  margin-top: 41px;
+  margin-bottom: 40px;
+  padding-top: 2px;
+  padding-left: 84px;
+  border-left: 2px solid  #F4CCD1;
+}
+
+.box4::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  left: 30px;
+  width: 43px;
+  height: 45px;
+  background-image: url(../img/icon-dead.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.box_text {
+  margin-bottom: 7px;
+}
+
+.container1 {
+  width: 1200px;
+  height: 133px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.widget {
+  width: 386px;
+}
+
+.widget1 {
+  margin-top: -20px;
+}
+
+.widget_img {
+  width: 386px;
+  height: 190px;
+  margin-top: 18px;
+}
+
+.widget_paragirif {
+  width: 380px;
+  height: 42px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.widget_paragirifff {
+  width: 370px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.widget_span {
+  width: 125px;
+  height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6B6D97;
+}
+
+.container2 {
+  width: 1200px;
+  height: 91px;
+  background: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.container2 {
+  margin-top: 490px;
+}
+
+.container2_text {
+  position: relative;
+  width: 610px;
+  height: 26px;
+  margin-left: 72px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.container2_text::before {
+  position: absolute;
+  content: "";
+  left: -50px;
+  bottom: 0.5px;
+  width: 31px;
+  height: 35px;
+  background-image: url(../img/bell-icon.png);
+  cursor: pointer;
+}
+
+.buuton {
+  width: 264px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+  margin: 25px 20px 24px;
+  padding: 8px 8px 8px 15px;
+  background: -webkit-gradient(linear, left top, right top, from(#FE5C28), color-stop(88.43%, rgba(255, 139, 54, 0.9)));
+  background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
